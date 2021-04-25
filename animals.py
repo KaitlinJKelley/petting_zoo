@@ -3,11 +3,11 @@ from swimming import (Fish, Seal, Shark, Eel, Turtle)
 from walking import (Llama, Donkey, Goat, Horse, Chicken)
 
 # Walking
-new_llama = Llama("Lenny", "Llama")
-new_donkey = Donkey("Dave", "Donkey")
-new_goat = Goat("Glenda", "Goat")
-new_horse = Horse("Harriet", "Horse")
-new_chicken = Chicken("Chester", "Chicken")
+new_llama = Llama("Lenny", "Llama", "Morning")
+new_donkey = Donkey("Dave", "Donkey", "Morning")
+new_goat = Goat("Glenda", "Goat", "Midday")
+new_horse = Horse("Harriet", "Horse", "Midday")
+new_chicken = Chicken("Chester", "Chicken", "Afternoon")
 
 print(new_llama, new_chicken, new_donkey, new_goat, new_horse)
 
