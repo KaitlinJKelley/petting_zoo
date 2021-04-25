@@ -12,7 +12,7 @@ class Fish():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
     
 
 class Seal():
@@ -27,7 +27,7 @@ class Seal():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Shark():
     def __init__(self, name, species, food):
@@ -41,7 +41,7 @@ class Shark():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Eel():
     def __init__(self, name, species, food):
@@ -55,7 +55,7 @@ class Eel():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Turtle():
     def __init__(self, name, species, food):
@@ -69,4 +69,4 @@ class Turtle():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"

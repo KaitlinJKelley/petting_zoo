@@ -16,7 +16,7 @@ class Llama():
       print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Donkey():
     def __init__(self, name, species, shift, food):
@@ -31,7 +31,7 @@ class Donkey():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Goat():
     def __init__(self, name, species, shift, food):
@@ -46,7 +46,7 @@ class Goat():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Horse():
     def __init__(self, name, species, shift, food):
@@ -61,7 +61,7 @@ class Horse():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Chicken():
     def __init__(self, name, species, shift, food):
@@ -76,5 +76,5 @@ class Chicken():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 

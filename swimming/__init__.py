@@ -1,1 +1,1 @@
-from .request import (Fish, Seal, Shark, Eel, Turtle)
+from .request import (Fish, Seal, Shark, Eel, Turtle, CritterCove)

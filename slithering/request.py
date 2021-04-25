@@ -12,7 +12,7 @@ class Snake():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Snail():
     def __init__(self, name, species, food):
@@ -26,7 +26,7 @@ class Snail():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Leech():
     def __init__(self, name, species, food):
@@ -40,7 +40,7 @@ class Leech():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Worm():
     def __init__(self, name, species, food):
@@ -54,7 +54,7 @@ class Worm():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
 
 class Salamander():
     def __init__(self, name, species, food):
@@ -68,4 +68,4 @@ class Salamander():
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
     def __str__(self):
-        return f"{self.name} is a {self.species}"
+        return f"{self.name} the {self.species}"
