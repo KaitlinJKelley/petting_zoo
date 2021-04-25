@@ -1,1 +1,1 @@
-from .request import (Llama, Donkey, Goat, Horse, Chicken)
+from .request import (Llama, Donkey, Goat, Horse, Chicken, PettingZoo)
