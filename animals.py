@@ -3,28 +3,46 @@ from swimming import (Fish, Seal, Shark, Eel, Turtle)
 from walking import (Llama, Donkey, Goat, Horse, Chicken)
 
 # Walking
-new_llama = Llama("Lenny", "Llama", "Morning")
-new_donkey = Donkey("Dave", "Donkey", "Morning")
-new_goat = Goat("Glenda", "Goat", "Midday")
-new_horse = Horse("Harriet", "Horse", "Midday")
-new_chicken = Chicken("Chester", "Chicken", "Afternoon")
+new_llama = Llama("Lenny", "Llama", "Morning", "llama food")
+new_donkey = Donkey("Dave", "Donkey", "Morning", "donkey food")
+new_goat = Goat("Glenda", "Goat", "Midday", "goat food")
+new_horse = Horse("Harriet", "Horse", "Midday", "horse food")
+new_chicken = Chicken("Chester", "Chicken", "Afternoon", "chicken food")
 
 print(new_llama, new_chicken, new_donkey, new_goat, new_horse)
 
 # Slithering
-new_snake = Snake("Sandy", "Snake")
-new_snail = Snail("Susan", "Snail")
-new_leech = Leech("Laura","Leech")
-new_worm = Worm("Wanda", "Worm")
-new_salamander = Salamander("Sal", "Salamander")
+new_snake = Snake("Sandy", "Snake", "snake food")
+new_snail = Snail("Susan", "Snail", "snail food")
+new_leech = Leech("Laura","Leech", "leech food")
+new_worm = Worm("Wanda", "Worm", "worm food")
+new_salamander = Salamander("Sal", "Salamander", "salamander food")
 
 print(new_snake, new_snail, new_leech, new_worm, new_salamander)
 
 # Swimming
-new_fish = Fish("Frank", "Fish")
-new_seal = Seal("Sally", "Seal")
-new_shark = Shark("Shelly", "Shark")
-new_eel = Eel("Earl", "Eel")
-new_turtle = Turtle("Tim", "Turtle")
+new_fish = Fish("Frank", "Fish", "fish food")
+new_seal = Seal("Sally", "Seal", "seal food")
+new_shark = Shark("Shelly", "Shark", "shark food")
+new_eel = Eel("Earl", "Eel", "eel food")
+new_turtle = Turtle("Tim", "Turtle", "turtle food")
 
 print(new_fish, new_seal, new_shark, new_eel, new_turtle)
+
+print(new_llama.feed())
+print(new_chicken.feed())
+print(new_donkey.feed())
+print(new_goat.feed())
+print(new_horse.feed())
+
+print(new_snake.feed())
+print(new_snail.feed())
+print(new_leech.feed())
+print(new_worm.feed())
+print(new_salamander.feed())
+
+print(new_fish.feed())
+print(new_seal.feed())
+print(new_shark.feed())
+print(new_eel.feed())
+print(new_turtle.feed())
